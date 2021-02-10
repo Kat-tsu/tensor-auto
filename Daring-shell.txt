@@ -1,0 +1,15 @@
+The first challenge is to create a shell that automates the whole environment setup for nodejs or other programming languase setup
+
+the  idea is to create sample like that 
+
+setupEnvironment('nodejs')
+mkdir routes,views,public,config,middleware,auth,models
+
+npm init --yes 
+npm install --save 
+nodemon index.js
+
+//this is the little part of this code should do 
+
+
+
