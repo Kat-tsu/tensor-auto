@@ -72,3 +72,24 @@ echo $HOME
 echo $PPID
 echo $HOSTNAME
 echo $PWD
+echo "Current path $PATH"
+
+#How do I concatenate value to the path (:)this operator was used to contatenate value
+$PATH=$PATH:$PWD
+#In the above example I'm passing the present working directory to path ,thus path now knows my present directory
+
+
+
+#How do I deals with operators
+ #you'll see
+ num1=10 num2=5
+ echo "sum between $num1 and $num2 is equal to `expr $num1 + $num2`"
+ echo "Mult between $num1 and $num2 is equal to `expr $num1 \* $num2`"
+ echo "Sub between $num1 and $num2 is equal to `expr $num1 - $num2`"
+ echo "Div between $num1 and $num2 is equal to `expr $num1 / $num2`"
+ echo "Exponentiation $num1^$num2 `expr $num1**$num2`"
+ #logical operators
+ cd ~/Documents/ && ls
+ cat ~/file.txt || echo "Current Working directory $PWD"
+ if this folder doens't exists make a dir /tmp/foo
+ ! cd /tmp/foo && mkdir /tmp/foo
