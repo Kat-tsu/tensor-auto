@@ -52,3 +52,13 @@ valuefromterminal=REPLY
 #passing variables as parameter
 read name age status
 echo $name $age $status
+
+#how do linux hide your password when typing
+Syntax
+read -s var1 var2 varn
+#how do Linux print a message when asking me about some specific thing
+read -p
+
+read -s -p "Please enter your passoword"
+#allow limited-number of character
+read -s -p -n 5 "just five letters"
