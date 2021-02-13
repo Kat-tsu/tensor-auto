@@ -62,3 +62,13 @@ read -p
 read -s -p "Please enter your passoword"
 #allow limited-number of character
 read -s -p -n 5 "just five letters"
+
+#Some built-in variables that comes pre-set from Linux
+#what they do ,print'em to see the outcome ,also as the implies ,you can already guess the outcome
+echo $ECHO
+echo $BASH_VERSION
+echo $BASHPID
+echo $HOME
+echo $PPID
+echo $HOSTNAME
+echo $PWD
