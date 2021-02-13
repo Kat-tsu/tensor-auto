@@ -36,3 +36,19 @@ declare -r weekday=7
 declare -r playerinGameBoard=16
 
 #or you can just use it in other way
+
+readonly onlyforreading="my author name "
+readonly dbKey="mongodb://"
+readonly awstoke="nothing"
+readonly cluster=35
+
+#So I know how do that stuff but I still using pre-set data ,how do I read frome STDIN
+Syntax
+read [options] var1 var2 ... varn
+#if dont pass any variable in order to get the value use this global var  $REPLY ,just libe below,put that in terminal and see the outcome
+read writesomething after the word read
+echo $REPLY
+valuefromterminal=REPLY
+#passing variables as parameter
+read name age status
+echo $name $age $status
