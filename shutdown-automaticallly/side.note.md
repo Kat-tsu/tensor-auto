@@ -25,3 +25,20 @@ m = 15 (minutes)
 h = 23 (hour)
 
 15 23 * * 1-5 /sbin/shutdown -h now
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+resorces
+https://www.linux.com/topic/networking/wake-and-shut-down-linux-automatically/
