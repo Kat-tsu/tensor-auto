@@ -27,6 +27,14 @@ h = 23 (hour)
 15 23 * * 1-5 /sbin/shutdown -h now
 
 
+Potential approaches
+
+rtcwake 
+rtcwake - enter a system sleep state until specified wakeup time
+sleep
+ Pause for NUMBER seconds.  SUFFIX may be 's' for seconds (the default), 'm' for minutes, 'h' for hours or 'd' for days.  Unlike most imple‐
+       mentations that require NUMBER be an integer, here NUMBER may be an arbitrary floating point number.  Given two or  more  arguments,  pause
+       for the amount of time specified by the sum of their values.
 
 
 
